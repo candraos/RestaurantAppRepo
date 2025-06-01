@@ -1,0 +1,81 @@
+/* Main content styling */
+.main-content {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Grid layout for restaurant cards */
+.restaurant-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Individual restaurant card styling */
+.restaurant-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.restaurant-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Restaurant image styling */
+.restraurant-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Restaurant details styling */
+.restaurant-details {
+    padding: 15px;
+    text-align: center;
+}
+
+.restaurant-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.restaurant-rating {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.rating {
+    color: #f39c12; /* Star color */
+    font-weight: bold;
+}
+
+.rating-count {
+    color: #999;
+    margin-left: 5px;
+}
+
+/* Order button styling */
+.order-btn {
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.order-btn:hover {
+    background-color: #e64a19;
+}

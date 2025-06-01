@@ -1,0 +1,131 @@
+/* General styles for the order summary */
+.order-summary {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.order-summary h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Table styling */
+.order-summary table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.order-summary th,
+.order-summary td {
+  padding: 12px 15px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.order-summary th {
+  background-color: #ff5722;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.order-summary tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.order-summary tbody tr:hover {
+  background-color: #f9e0d9;
+}
+
+.order-summary tfoot td {
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: right;
+}
+
+.order-summary tfoot td[colspan="2"] {
+  text-align: left;
+}
+
+/* Checkout button styling */
+.checkout-button {
+  background-color: #ff5722;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto 0;
+  transition: background-color 0.3s ease;
+}
+
+.checkout-button:hover {
+  background-color: #e64a19;
+}
+
+/* Dialog box styling */
+.dialog-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.dialog-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.dialog-box h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.dialog-box p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.close-button {
+  background-color: #ff5722;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.close-button:hover {
+  background-color: #e64a19;
+}
